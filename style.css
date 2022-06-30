@@ -1,0 +1,292 @@
+/* Universal Style */
+html {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  color:#83869A;
+}
+
+body {
+  width: 90rem;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  margin:1.5rem 0;
+  font-weight: 800;
+  color:#13183F;
+}
+
+a {
+  color:inherit;
+}
+
+.container {
+  position: relative;
+  margin: 15rem 0;
+  padding: 0 10rem;
+}
+
+.tablet {
+  display: none;
+}
+.mobile {
+  display: none;
+}
+
+.small-flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7.5rem;
+  padding: 0 10rem;
+}
+
+/* Font Class Section */
+.big-heading {
+  font-size:3.5rem;
+  line-height: 70px;
+}
+
+.medium-heading {
+  font-size: 2rem;
+}
+
+.small-heading {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.text {
+  margin:0.5rem 0;
+  font-size: 1.125rem;
+  line-height: 28px;
+}
+
+/* Button Class Section */
+.btn {
+  display: block;
+  width: 10.5rem;
+  padding: 1rem 0;
+  color:#FFFFFF;
+  font-size: 1.125rem;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.btn:active {
+  opacity: 0.5;
+}
+
+/* Color Class Section */
+.bg-pink-gradient {
+  background: linear-gradient(#F02AA6, #FF6F48);
+}
+
+.bg-navy {
+  background-color:#13183F;
+}
+
+.white-text {
+  color:#FFFFFF;
+}
+
+/* Header Section */
+header .btn {
+  z-index: 5;
+}
+
+header .btn:active {
+  background-color:#666CA3;
+}
+
+/* Jumbotron Section */
+.jumbotron-content-wrapper {
+  width: 30rem;
+}
+
+.jumbotron-image {
+  position: absolute;
+  left: 50%;
+  bottom: -50%;
+}
+
+/* Courses Section */
+.course-section {
+  height: 55.5rem;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F0F2FF 99.99%, #F0F1FF 100%);
+}
+
+.grid-container {
+  display: grid;
+  width: 70rem;
+  height: 45.75rem;
+  margin: 0 auto;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  gap:3.5rem 1.875rem;
+}
+
+.grid-content {
+  height: 14.4rem;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+}
+
+.grid-column {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3rem 2rem 1rem;
+  background-color: #FFFFFF;
+  border-radius:5px;
+}
+
+.logo {
+  position: absolute;
+  top:-7%;
+}
+
+.course-btn {
+  color: #F74780;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Footer Section */
+footer .btn {
+  background: linear-gradient(#4851FF, #F02AA6);
+}
+
+/* Tablet Display */
+@media only screen and (min-width:400px) and (max-width:800px) {
+  /* Universal Style */
+  body {
+    width: 48rem;
+  }
+
+  /* Media Queries Display */
+  .tablet {
+    display: inline-block;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  /* Font style */
+  .big-heading {
+    font-size: 2.5rem;
+  }
+
+  .text {
+    font-size: 1rem;
+  }
+
+  /* Container Section */
+  .container {
+    margin: 5rem 0.8rem 10rem;
+    padding: 0 2.5rem;
+  }
+
+  .small-flex-container {
+    padding:0 2.5rem;
+  }
+
+  /* Jumbotron Section */
+  .jumbotron-content-wrapper {
+    width : 55%;
+  }
+
+  /* Course Section */
+  .course-section {
+    height: 62.4rem;
+  }
+
+  .grid-container {
+    width: 43rem;
+    height: 57rem;
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    grid-gap: 2rem 0.625rem;
+  }
+
+  .grid-column {
+    padding:1.5rem 1rem;
+  }
+}
+
+  @media only screen and (max-width:400px) {
+    /* Universal Style */
+    body {
+      width: 23.4rem;
+    }
+
+    /* Media Queries Display */
+    .tablet {
+      display: none;
+    }
+
+    .desktop {
+      display: none;
+    }
+
+    .mobile {
+      display: inline-block;
+      position: static;
+      width: 100%;
+      margin-top:2rem;
+    }
+
+  /* Container Section */
+  .container {
+    margin: 0;
+    padding: 0 0.5rem;
+  }
+
+  .small-flex-container {
+    padding:0 0.5rem;
+  }
+
+  /* Font style */
+  .big-heading {
+    font-size: 2.5rem;
+  }
+
+  .text {
+    font-size: 1rem;
+  }
+
+  /* Jumbotron Section */
+  .jumbotron-content-wrapper {
+    width : 100%;
+  }
+
+  /* Course Section */
+  .course-section {
+    padding: 0 0.3rem;
+    height: 110rem;
+  }
+
+  .grid-container {
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-row-gap: 2rem;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+  }
+
+  .grid-column {
+    padding:1.5rem 1rem;
+  }
+
+  .course-intro {
+    padding: 1rem;
+    height: 9.4rem;
+  }
+
+}
