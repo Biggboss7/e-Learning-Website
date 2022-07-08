@@ -7,22 +7,22 @@ This is a solution to the [Skilled e-learning landing page challenge on Frontend
 ## Table of contents
 
 - Overview
-      - The Challenge
-      - Screenshot
-      - Links
-    - My process
-      - Built with
-      - What I learned
-    - Author
+  - The Challenge
+  - Screenshot
+  - Links
+- My process
+  - Built with
+  - What I learned
+- Author
 
 ## Overview
 
 ### The challenge
 
-	  This is the challenge from Frontend Mentor to build a e-Learning Website
-	by using HTML & CSS. Our Challenge is to build the e-Learning
-	and get it looking as close to the design as possible. Besides, it should
-	be able to responsive (adapt to different size of device screen).
+This is the challenge from Frontend Mentor to build a e-Learning Website
+by using HTML & CSS. Our Challenge is to build the e-Learning
+and get it looking as close to the design as possible. Besides, it should
+be able to responsive (adapt to different size of device screen).
 
 Users should be able to:
 
@@ -33,14 +33,14 @@ Users should be able to:
 
 Here are the preview of the product card that I've created.
 
-	  On Desktop
-	  ![alt text](images/desktop-preview.png)
+On Desktop
+![alt text](images/desktop-preview.png)
 
-	  On Tablet
-	  ![alt text](images/tablet-preview.png)
+On Tablet
+![alt text](images/tablet-preview.png)
 
-	  On Mobile
-	  ![alt text](images/mobile-preview.png)
+On Mobile
+![alt text](images/mobile-preview.png)
 
 
 ### Links
@@ -55,7 +55,7 @@ Here are the preview of the product card that I've created.
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
+- - CSS Grid
 
 ### What I learned
 
@@ -64,10 +64,9 @@ By searching through Google and Stackoverflow, I can finally accomplish
 this project although I still realise my solution is not the best.
 
 Below are some of the important things I learned/got from this project:
-	 1. Enhance my skill to build better structure HTML and CSS properties
-	 2. Deepen my knowledge about positioning
-	 3. How to build responsive website on desktop, tablet, and mobile
+1. Enhance my skill to build better structure HTML and CSS properties
+2. Deepen my knowledge about positioning
+3. How to build responsive website on desktop, tablet, and mobile
 
 ## Author
-
 - Github [Michael Tze] - https://github.com/Biggboss7
