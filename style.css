@@ -8,6 +8,7 @@ html {
 body {
   width: 90rem;
   margin: 0 auto;
+  overflow-x:hidden;
 }
 
 h1, h2, h3 {
